@@ -23,6 +23,9 @@ let finalPrice;
 if (myAge < 18) {
     finalPrice = (fullPrice * 80) / 100;
     console.log(finalPrice);
+} else if (myAge > 65) {
+    finalPrice = (fullPrice * 60) / 100;
+    console.log(finalPrice);
 }
 
 
