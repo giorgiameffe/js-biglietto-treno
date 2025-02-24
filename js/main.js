@@ -26,7 +26,12 @@ if (myAge < 18) {
 } else if (myAge > 65) {
     finalPrice = (fullPrice * 60) / 100;
     console.log(finalPrice);
+} else {
+    finalPrice = fullPrice;
+    console.log(finalPrice);
 }
+
+
 
 
 
