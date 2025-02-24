@@ -13,7 +13,17 @@ console.log(myAge);
 
 const fullPrice = kmToDo * 0.21;
 
+// dichiarare variabile prezzo finale
 
+let finalPrice;
+
+// calcolare il prezzo scontato del biglietto in relazione all'età 
+// e alla fascia di sconto cui appartiene 
+
+if (myAge < 18) {
+    finalPrice = (fullPrice * 80) / 100;
+    console.log(finalPrice);
+}
 
 
 
