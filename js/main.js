@@ -22,16 +22,19 @@ let finalPrice;
 
 if (myAge < 18) {
     finalPrice = (fullPrice * 80) / 100;
-    console.log(finalPrice);
+
 } else if (myAge > 65) {
-    finalPrice = (fullPrice * 60) / 100;
-    console.log(finalPrice);
+    finalPrice = ((fullPrice * 60) / 100);
+
 } else {
     finalPrice = fullPrice;
-    console.log(finalPrice);
 }
 
+// ridurre la cifra ottenuta ad un valore 
+// con massimo due decimali
 
+finalPrice.toFixed(2);
+console.log(finalPrice.toFixed(2));
 
 
 
