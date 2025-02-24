@@ -7,7 +7,7 @@ Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio,
 - a applicato uno sconto del 40% per gli over 65.
 L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo).
 
-#Svolgimento 
+# Svolgimento 
 
 - chiedere all'utente quanti chilometri ha intenzione di percorrere 
 - chiedere all'utente quanti anni ha 
@@ -16,7 +16,7 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
   - se l'età è minore di 18 
      - calcolo il prezzo finale tenendo conto della percentuale di sconto del 20%
      - stampo nella console il prezzo finale 
-   - se l'età è maggiore di 65
+   - altrimenti se l'età è maggiore di 65
      - calcolo il prezzo finale tenendo conto della percentuale di sconto del 40%
      - stampo nella console il prezzo finale 
   - altrimenti 
